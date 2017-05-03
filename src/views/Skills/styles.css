@@ -1,0 +1,83 @@
+.bar {
+  height: 40px;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  background: lightblue;
+  color: white;
+}
+
+.js {
+  width: 85%;
+}
+
+.devops {
+  width: 85%;
+}
+
+.java {
+  width: 75%;
+}
+
+.python {
+  width: 50%;
+}
+
+.clojure {
+  width: 30%;
+}
+
+.xp-bar1 {
+
+}
+
+.xp-bar1::before {
+  width: 100%;
+  height: 3px;
+  position: relative;
+  content: ' ';
+  display: block;
+  margin-bottom: -13px;
+  background: gray;
+}
+
+.xp-marker-left {
+  width: 33%;
+  display: inline-block;
+  font-size: 1.2em;
+  color: gray;
+  float: left;
+}
+
+.xp-marker-left::before {
+  width: 3px;
+  height: 10px;
+  position: relative;
+  content: ' ';
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-left: 0;
+  background: gray;
+}
+
+.xp-marker-right {
+  text-align: right;
+  width: 34%;
+  display: inline-block;
+  font-size: 1.2em;
+  color: gray;
+  float: left;
+}
+
+.xp-marker-right::before {
+  width: 3px;
+  height: 10px;
+  position: relative;
+  content: ' ';
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-right: -1px;
+  background: gray;
+}

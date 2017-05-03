@@ -1,0 +1,58 @@
+/*h4 {
+  text-align: left;
+}*/
+
+.company {
+  /*position: relative;*/
+  /*width: 75vw;*/
+  /*padding-left: 30px;*/
+  /*padding-left: -0px;*/
+  /*text-align: left;*/
+}
+
+.company-name {
+  display: inline;
+  /*text-align: left;*/
+  padding-left: 15px;
+  /*padding-right: 30px;*/
+}
+
+.company-time {
+  display: inline;
+  /*right: 0;*/
+  padding-left: 100px;
+  /*text-align: right;*/
+  /*padding-left: 15px;*/
+  /*padding-right: 30px;*/
+}
+
+.company-logo {
+  display: inline;
+  /*height: 20px;
+  width: 40px;*/
+}
+
+.nike {
+  width: 40px;
+  height: 15px;
+}
+
+.intel {
+  width: 40px;
+  height: 30px;
+}
+
+.columbia {
+  width: 40px;
+  height: 28px;
+}
+
+.up {
+  width: 40px;
+  height: 25px;
+}
+
+.square {
+  height: 40px;
+  width: 40px;
+}
