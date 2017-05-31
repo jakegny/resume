@@ -21,18 +21,12 @@ class App extends Component {
           </Row>
           <Row className="show-grid">
             <Col xs={12} md={6}>
-              <About />
-              <Skills />
-            </Col>
-            <Col xs={12} md={6}>
               <Experience />
             </Col>
-          </Row>
-          <Row className="show-grid">
             <Col xs={12} md={6}>
+              <About />
+              <Skills />
               <Projects />
-            </Col>
-            <Col xs={12} md={6}>
               <Contact />
             </Col>
           </Row>
